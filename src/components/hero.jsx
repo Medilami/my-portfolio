@@ -1,6 +1,7 @@
 function Hero() {
           return (
-            <section className="min-h-screen bg-black text-white flex flex-col justify-center items-center px-6">
+           <section className="relative min-h-screen bg-black text-white flex flex-col justify-center items-center px-6 overflow-hidden">
+                    <div className="absolute w-96 h-96 bg-blue-500 rounded-full blur-3xl opacity-20"></div>
               <p className="text-blue-400 mb-3">
                 Hello, I'm
               </p>
