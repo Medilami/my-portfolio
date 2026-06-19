@@ -5,18 +5,24 @@ function Projects() {
               description:
                 "A full-stack job portal built with React, Node.js, and MySQL.",
               tech: "React • Node.js • MySQL",
+              github: "https://github.com/Medilami/your-repo",
+              deployed: "https://mejobportal.netlify.app/#",
             },
             {
               title: "EduConnect Tchad",
               description:
                 "An education platform designed to improve access to learning resources.",
               tech: "React • JavaScript • CSS",
+              github: "https://github.com/Medilami/your-repo",
+              deployed: "https://medilami.github.io/your-repo/",
             },
             {
               title: "PayeFacile Tchad",
               description:
                 "A FinTech project aimed at simplifying digital payments in Chad.",
               tech: "FinTech • React • MySQL",
+              github: "https://github.com/Medilami/your-repo",
+              deployed: "https://medilami.github.io/your-repo/",
             },
           ];
         
@@ -57,6 +63,24 @@ function Projects() {
                     <p className="text-blue-400">
                       {project.tech}
                     </p>
+                    <div className="flex gap-4 mt-6">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300"
+                      >
+                        GitHub
+                      </a>
+                      <a
+                        href={project.deployed}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
                   </div>
                 ))}
               </div>

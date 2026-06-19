@@ -27,7 +27,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/hassane-outman-medila-3a46b832b"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400"
