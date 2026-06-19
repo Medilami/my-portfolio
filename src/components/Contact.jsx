@@ -12,9 +12,10 @@ function Contact() {
         </h2>
 
         <p className="text-gray-400 mb-10">
-          Feel free to reach out for internships,
-          collaborations, or project discussions.
-        </p>
+  I'm currently seeking internships, freelance
+  opportunities, and collaborations in web
+  development and software engineering.
+</p>
 
         <div className="flex justify-center gap-8 text-4xl">
           <a

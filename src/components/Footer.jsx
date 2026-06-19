@@ -7,7 +7,7 @@ function Footer() {
         </p>
 
         <p className="mt-2 text-sm">
-          Built with React, Tailwind CSS and ❤️
+          Built with React, Tailwind CSS and 
         </p>
       </div>
     </footer>
