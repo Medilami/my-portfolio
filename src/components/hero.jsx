@@ -21,7 +21,12 @@ function Hero() {
         
               <div className="mt-8 flex gap-4">
                 <button className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+                <a
+                    href="#projects"
+                    className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700"
+                      >
                   View Projects
+                </a>
                 </button>
         
                 <button className="border border-white px-6 py-3 rounded-lg">
