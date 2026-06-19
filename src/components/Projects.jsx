@@ -1,30 +1,34 @@
 function Projects() {
-          const projects = [
-            {
-              title: "Job Portal",
-              description:
-                "A full-stack job portal built with React, Node.js, and MySQL.",
-              tech: "React • Node.js • MySQL",
-              github: "https://github.com/Medilami/your-repo",
-              deployed: "https://mejobportal.netlify.app/#",
-            },
-            {
-              title: "EduConnect Tchad",
-              description:
-                "An education platform designed to improve access to learning resources.",
-              tech: "React • JavaScript • CSS",
-              github: "https://github.com/Medilami/your-repo",
-              deployed: "https://medilami.github.io/your-repo/",
-            },
-            {
-              title: "PayeFacile Tchad",
-              description:
-                "A FinTech project aimed at simplifying digital payments in Chad.",
-              tech: "FinTech • React • MySQL",
-              github: "https://github.com/Medilami/your-repo",
-              deployed: "https://medilami.github.io/your-repo/",
-            },
-          ];
+  const projects = [
+    {
+      title: "Job Portal",
+      description:
+        "A full-stack job portal built with React, Node.js, and MySQL.",
+      tech: "React • Node.js • MySQL",
+      status: "Completed",
+      github: "#",
+      deployed: "https://mejobportal.netlify.app/",
+    },
+    {
+      title: "EduConnect Tchad",
+      description:
+        "An EdTech platform designed to connect students, teachers, and educational resources in Chad.",
+      tech: "React • Node.js • MySQL",
+      status: "In Development",
+      github: "#",
+      deployed: "#",
+      
+    },
+    {
+      title: "PayeFacile Tchad",
+      description:
+        "A FinTech platform concept focused on simplifying digital payments and financial access in Chad.",
+      tech: "React • FinTech • MySQL",
+      status: "Planning Phase",
+      github: "#",
+      deployed: "#",
+    },
+  ];
         
           return (
             <section
@@ -80,6 +84,9 @@ function Projects() {
                       >
                         Live Demo
                       </a>
+                      <p className="mt-3 text-sm text-yellow-400">
+                         {project.status}
+                      </p>
                     </div>
                   </div>
                 ))}
