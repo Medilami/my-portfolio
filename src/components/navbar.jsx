@@ -3,7 +3,7 @@ function Navbar() {
             <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md text-white">
               <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
                 <h1 className="text-xl font-bold">
-                  Medila.dev
+                {"<Medila.dev />"}
                 </h1>
         
                 <ul className="flex gap-6">
